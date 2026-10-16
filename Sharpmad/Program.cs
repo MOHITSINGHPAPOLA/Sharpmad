@@ -485,8 +485,9 @@ namespace Sharpmad
                 }
 
             }
-            catch
+            catch (Exception ex)
             {
+                Console.WriteLine(ex.ToString());
                 Environment.Exit(1);
             }
 
