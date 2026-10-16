@@ -329,8 +329,11 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 
-# Publish the .NET Framework release executable
+# Publish only the .NET Framework release executable
 !Sharpmad/bin/
+Sharpmad/bin/*
 !Sharpmad/bin/Release/
+Sharpmad/bin/Release/*
 !Sharpmad/bin/Release/net40/
+Sharpmad/bin/Release/net40/*
 !Sharpmad/bin/Release/net40/Sharpmad.exe
