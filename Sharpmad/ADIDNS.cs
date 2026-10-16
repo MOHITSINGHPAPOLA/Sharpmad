@@ -8,7 +8,6 @@ using System.Net.Sockets;
 using System.DirectoryServices;
 using System.DirectoryServices.ActiveDirectory;
 using System.DirectoryServices.Protocols;
-using System.Runtime.Serialization.Formatters.Binary;
 using System.Security.Principal;
 using System.Security.AccessControl;
 
@@ -484,12 +483,6 @@ namespace Sharpmad
 
                 if (String.Equals(value.Value.GetType().ToString(), "System.Byte[]"))
                 {
-                    BinaryFormatter binaryFormatter = new BinaryFormatter();
-                    using (MemoryStream memoryStream = new MemoryStream())
-                    {
-                        binaryFormatter.Serialize(memoryStream, value.Value);
-                    }
-
                 }
                 else
                 {
