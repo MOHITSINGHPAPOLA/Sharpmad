@@ -337,3 +337,8 @@ Sharpmad/bin/Release/*
 !Sharpmad/bin/Release/net40/
 Sharpmad/bin/Release/net40/*
 !Sharpmad/bin/Release/net40/Sharpmad.exe
+!Sharpmad/bin/Release/net10.0/
+Sharpmad/bin/Release/net10.0/*
+!Sharpmad/bin/Release/net10.0/win-x64/
+Sharpmad/bin/Release/net10.0/win-x64/*
+!Sharpmad/bin/Release/net10.0/win-x64/Sharpmad.exe
